@@ -1,16 +1,7 @@
 //your JS code here. If required.
-//your JS code here. If required.
 let student = {
-	name: `Anas`,
-	job: `SDE`,
-	experience: `fresher`
-
-	getKeys(student);
+	name : "Mark"
 }
-function getKeys(obj) {
-let keys = Object.keys(obj)
-return keys;
-	
+Object.prototype.getKeys = function () { 
+	return Object.keys(this);
 }
-
-student.getKeys;
